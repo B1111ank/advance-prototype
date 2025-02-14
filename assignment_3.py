@@ -4,6 +4,7 @@ from time import *
 
 print('NeoPixel LED + button  Example')
 
+# testing for commiting on github 
 # button input on pin 2:
 btn = Pin(1, Pin.IN, Pin.PULL_UP)
 btn_val_last = 1
