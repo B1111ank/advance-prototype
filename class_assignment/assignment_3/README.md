@@ -1,9 +1,9 @@
 # Assignment 3
 **Xianghan Zeng | Advance-Prototype | SP 25**\
 ## About this project
-This project is using ATOM S3 to create an installation with different LED affect.\
+This project is using ATOM S3 to create an installation with different LED affect.
 ## Explaining the code
-This code have one part for detecting the stage of the physical conenction and changing the state and another part executing different code for different state.\
+This code have one part for detecting the stage of the physical conenction and changing the state and another part executing different code for different state.
 ### Code for detecting
 The following code is the detecting if the button changes and change the state.
 ``` Python  
