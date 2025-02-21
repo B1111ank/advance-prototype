@@ -1,4 +1,4 @@
-# Assignment 3\
+# Assignment 3
 **Xianghan Zeng | Advance-Prototype | SP 25**\
 ## About this project
 This project is using ATOM S3 to create an installation with different LED affect.\
