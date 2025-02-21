@@ -79,7 +79,7 @@ This project utilize the following hardware devices and materials to build
 * Copper Tape
 * Tape
 * Glue
-The M5 ATOM S3 is attached on the ATOMIC PORTABC EXTENSION BASE connecting to DIGITAL RGB LED and a GROVE CABLE. I use cardboad and glue to build a box with an openning and a cover of the opening that could slide to left and right. The GROVE CABLE is cut in half and attached to two different copper tape and place on the box and the button of the slide cover. The led strip is place into the box. By swipping the slide cover, the copper tape will be connected or diconnected and triggering the state change in the code causing the LED light change.
+\The M5 ATOM S3 is attached on the ATOMIC PORTABC EXTENSION BASE connecting to DIGITAL RGB LED and a GROVE CABLE. I use cardboad and glue to build a box with an openning and a cover of the opening that could slide to left and right. The GROVE CABLE is cut in half and attached to two different copper tape and place on the box and the button of the slide cover. The led strip is place into the box. By swipping the slide cover, the copper tape will be connected or diconnected and triggering the state change in the code causing the LED light change.
 
 ## Physical outcome
 ### Stage with button disconnected
