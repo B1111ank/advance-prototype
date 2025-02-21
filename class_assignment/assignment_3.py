@@ -4,7 +4,6 @@ from time import *
 
 print('NeoPixel LED + button  Example')
 
-# testing for commiting on github 
 # button input on pin 2:
 btn = Pin(1, Pin.IN, Pin.PULL_UP)
 btn_val_last = 1
@@ -42,17 +41,32 @@ while True:
                 np[i] = (g, g, g)
             np.write()
             sleep_ms(1)
+            if btn.value() == 0:
+                for i in range(30):
+                    np[i] = (0, 0, 0)
+                np.write()
+                break
         for g in range(150):
             for i in range(30):
                 np[i] = (150-g, 150-g, 150-g)
             np.write()
             sleep_ms(1)
+            if btn.value() == 0:
+                for i in range(30):
+                    np[i] = (0, 0, 0)
+                np.write()
+                break
     if program_state == 'starting':
         for i in range(30):
             for g in range(50):
                 np[i] = (0,g*4,0)
                 sleep_ms(1)
                 np.write()
+            if btn.value() == 1:
+                for i in range(30):
+                    np[i] = (0, 0, 0)
+                np.write()
+                break
     if program_state == 'finishing':
         if np[0][0] < 190:
             for g in range(200):
