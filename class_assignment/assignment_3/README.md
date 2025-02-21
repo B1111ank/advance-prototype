@@ -88,4 +88,4 @@ This project utilize the following hardware devices and materials to build
 ![stage_3](image_3.jpg)
 
 ## Code file
-[Assignment 3 code file](assignment_3.py)\
+[Assignment 3 code file](assignment_3.py)
