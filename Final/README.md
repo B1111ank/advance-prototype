@@ -157,9 +157,10 @@ Here is how I set up in firmware to connect to the protopie
 Here is how I set up in protopie to recieve information from the hardware devices
 ## Project Outcome
 ### Video of physical outcome
-[video link](AP_assignment-4_physical_outcome_demonstration.mp4)
+[physical outside](https://drive.google.com/file/d/1OsH6hNwy49EnqMqXDBXHiS9UCIfaG3kH/view?usp=drive_link)\
+[physical inside](https://drive.google.com/file/d/1rwsxhdIUaPIPLH6JIwLfpzlgClgABFd2/view?usp=drive_link)
 ### Video of protopie
-[video link](AP_Assignment-4_prototype_demonstration.mp4)
+[Prototpie](https://drive.google.com/file/d/1RyQIcwo05Q8CsdxUVqYTMrd54h0r32db/view?usp=drive_link)
 
 ## Code file
 [Final code file](final.py)
