@@ -135,7 +135,7 @@ The M5 ATOM S3 is attached on the ATOMIC PORTABC EXTENSION BASE connecting to DI
 ### Video of physical outcome
 [video link](AP_assignment-4_physical_outcome_demonstration.mp4)
 ### Video of protopie connection
-[video link](AP_Assignment-4_prototype_demonstration.mp4)
+[video link](https://drive.google.com/file/d/1sr0mjs_IC40tgMhjn8MdKwlhwTBGLLNr/view?usp=sharing)
 
 ## Code file
 [Assignment 4 code file](assignment_4.py)
