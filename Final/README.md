@@ -4,14 +4,19 @@
 In the scenario of fire scene, people will get panic and urge to get out. In this situation, some important information like hidden fire soure and toxic gas. This project is a smart fire mask which aim to help user gather those important information to help user to avoid those danger through wearable device. For the physical part, it is using M5Stack with ATOM S3 as core to build up the wearable device. Also, an app is built to connect to the device to get the surrounding information from the mask.
 ## Hardware
 ### Exterior
-Thermal Camera
-Environmen Pro Unit
+Hero Image\
+![hero](hero_image/whole.jpg)\
+Thermal Camera\
+![thermal](hero_image/thermal.jpg)\
+Environmen Pro Unit\
+![env](hero_image/env_pro.jpg)
 ### Interior
-Digital RGB LED
-
-IMU Pro Unit
-
-All the other electronics
+Digital RGB LED\
+![LED](hero_image/LED.jpg)\
+IMU Pro Unit\
+![IMU](hero_image/IMU.jpg)\
+All the other electronics\
+![wire](hero_image/wiring.jpg)
 
 ## State Diagram
 ![State Diagram](State_diagram.svg)
@@ -160,6 +165,23 @@ Here is how I set up in protopie to recieve information from the hardware device
 [Final code file](final.py)
 
 ## Conclusion
+Through out this project, I found couple difficulties during the process of creating this mask which were not thought of at the very beginning. These difficulties cause me spent a lot more effort for a less or even no outcome, but I do learned a lot through out the process of overcoming these challenges.
+
+First of all, part of the mask material is silicon, which makes almost nothing stick to it by glues or sticking chemicals. Therefore, I had to sew all of the electronics onto the mask.
+
+Second, the i2c bus connections through different hardwares. Since there are 4 different hardware need to connect through i2c port, the connection is not stable at the beginning that everytime will lost connection to 1 or 2 parts. By redesigning how they are connected, now these hardwares are stably conencted to the atom S3.
+
+Last is the exterior covers. Due to the fact that thermal camera and environment pro unit need to be mounted outside of the mask, cover is needed to protect them. However, the shape of the mask is quite difficult to measure and match, which makes fitting the cover to the shape of the mask hard.
+
+After finish building this project, there are still a few things I did not achieve unfortunately. Initially, I was planning to have a vibrator to vibrate when the user is mark as fainted to try to wake the user up, but the vibrator seems to have some issue that it doesn't execute exactlly what the code is. Also, there are two part able to add filter onto it where I can place most of the wiring into an attachment leaving the mask clearer and more tidy.
+
+After all, I feel good about what I end up with. I learned a lot on about theoratical and practical knowledge during the process of building this project.
 
 ## Reference
 Here are the reference I took during the process of creating this project
+### Atmos Air-Purifying Face Mask
+[![smart mask](reference/atmos-air-purifying-face-mask-42474.jpg)](https://www.dudeiwantthat.com/gear/gadgets/atmos-air-purifying-face-mask.asp)
+### Biohacking: Smart Mask for Air Quality Tracking
+[![smart mask](reference/cambridge-mask-4.jpg)](https://blog.adafruit.com/2017/06/15/biohacking-smart-mask-for-air-quality-tracking/)
+### FLIR Fire Detection
+[![smart mask](reference/efd-landing-page_hero.jpg)](https://www.flir.com/instruments/fire-prevention/?srsltid=AfmBOor6_h9-ryYbbEkdmmcT9nD4xIAPiioWpSnzDxcDsu4ol1PeZOjW)
