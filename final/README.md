@@ -19,9 +19,9 @@ All the other electronics\
 ![wire](hero_image/wiring.jpg)
 
 ## State Diagram
-![State Diagram](State_diagram.svg)
+![State Diagram](state_diagram.jpg)
 ## Wiring Diagram
-![Wiring Diagram](Wire_diagram.svg)
+![Wiring Diagram](wire_diagram.jpg)
 
 ## Firmware
 The code is devided into 3 parts which are check if fainted, processing thermal data, and demonstrating on the OLED.
